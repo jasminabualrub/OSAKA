@@ -1,0 +1,9 @@
+:root{
+    --main-color:#f02334;
+
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+color: var(--main-color) ;
+font-weight: 700;
+}
+
