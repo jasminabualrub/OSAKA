@@ -2,6 +2,9 @@
     --main-color:#f02334;
 
 }
+.navbar{
+    z-index: 9;
+}
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
 color: var(--main-color) ;
 font-weight: 700;
@@ -10,4 +13,12 @@ font-weight: 700;
 .offcanvas{
     background-color: rgb(18, 17, 17);
     color:var(--main-color);
+}
+.nav{
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px;
+}
+ .projects .nav-link {
+    color:#f02334;
 }
