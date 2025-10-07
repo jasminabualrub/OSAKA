@@ -1,6 +1,9 @@
 :root{
-    --main-color:#f02334;
-
+    --main-color:#87143c;
+--main-font:"Open Sans", sans-serif;
+}
+.body{
+    font-family: var(--main-font);
 }
 .navbar{
     z-index: 9;
@@ -21,4 +24,47 @@ font-weight: 700;
 }
  .projects .nav-link {
     color:#f02334;
+}
+
+.hero{
+    background-image: url("/assets/image/osakhero/osakahero.webp");
+    background-size: cover;
+    background-position: center;
+
+}
+.hero h1{
+    font-size: 48px;
+    font-weight:800;
+}
+.hero a{
+    color:var(--main-color);
+    text-decoration: none;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    border:1px solid #222222;
+    transition: all 0.6s;
+}
+.icon:hover{
+    border:2px solid white;
+    cursor: pointer;
+}
+.card-img{
+    width:80px;
+    height: 80px;
+}
+ .testmonials .carousel-indicators{
+    bottom: -50px;
+   
+}
+ .testmonials .carousel-indicators [data-bs-target]{
+        width:8px;
+        height:8px;
+        border-radius: 50%;
+       
+         border:1px solid #222222;
+}
+.carousel-indicators .active{
+    background-color: #000;
 }
