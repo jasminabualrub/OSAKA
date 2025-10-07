@@ -2,6 +2,9 @@
     --main-color:#87143c;
 --main-font:"Open Sans", sans-serif;
 }
+.text-main{
+    color:var(--main-color);
+}
 .body{
     font-family: var(--main-font);
 }
